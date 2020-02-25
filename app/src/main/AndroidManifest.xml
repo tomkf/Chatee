@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".AuthActivity" android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
+
