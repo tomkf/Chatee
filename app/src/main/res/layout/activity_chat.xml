@@ -6,16 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/message_list"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/three_quarters_horizontal_guideline"
-        tools:listitem="@layout/item_message" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/three_quarters_horizontal_guideline"
         android:layout_width="wrap_content"
@@ -51,5 +41,15 @@
             android:layout_marginEnd="10dp" />
 
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/message_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/three_quarters_horizontal_guideline"
+        tools:listitem="@layout/item_message" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
